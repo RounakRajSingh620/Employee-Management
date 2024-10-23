@@ -15,7 +15,7 @@ const Login = () => {
     <div className='flex h-screen w-screen flex-col items-center justify-center'>
       <div className='border-2 rounded-xl border-emerald-600 p-20'>
         <form onSubmit={(e) => { submitHandler(e) }} className='flex flex-col items-center justify-center'>
-          <input onChange={
+          <input value={email} onChange={
             (e) => {
               console.log(e.target.value)
             }
