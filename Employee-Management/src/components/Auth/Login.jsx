@@ -6,9 +6,9 @@ const Login = () => {
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
-  const submitHandler = (e) => {
+  const submitHandler = (e) => { 
     e.preventDefault()
-    console.log("heloo guys,form dsubmitted")
+    console.log("heloo guys,form submitted")
   }
 
   return (
